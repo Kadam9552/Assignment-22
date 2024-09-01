@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <style>
+         body{
+            background-color:#078080;
+        }
+        h1{
+            font-family:Arial Narrow;
+            font-size: 55px;
+            text-align: center;
+            color:bisque;
+            padding: 45px;
+        }
+        h3{
+            font-family:Arial Narrow;
+            font-size: 30px;
+            text-align: center;
+        }
+        .btn{
+        border: none;
+        font-size: 25px;
+        border-radius: 5px;
+        color: black;
+        background-color: bisque;
+        margin: 15px;
+        padding: 5px 20px;
+        text-decoration:none;
+      }
+      .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+      }
+      .menu-card{
+        background-color: #fff;
+        width: 150px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+       box-shadow: 0 0 10px 2px #594a4e;
+       margin: 20px;
+      }
+      .menu-icon{
+        height: 90px;
+        width: 130px;
+        display: block;
+        margin: 10px 10px auto;
+      }
+      .orderbtn{
+        background-color: #f582ae;
+        background-color: #078080;
+        color:white;
+        border:none;
+        border-radius: 10px;
+        padding: 5px 8px;
+        display: block;
+        margin: 10px  auto;
+      }
+      .menu-title{
+         font-size: 18px;
+         padding: 0;
+         margin: 5px 0 0 0;
+      }
+      p{
+        padding: 0;
+        margin: 1px;
+      }
+      .menu-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .arrow{
+        height:40px;
+        width:40px;
+        display: block;
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+    <h1>Menu</h1>
+   <div class="menu">
+    <button class="btn"> <a href="./../index.html">Home</a></button>
+    <button class="btn"> <a href="#Starters">Starters</a></button>
+   <button class="btn"> <a href="#Dishes">Dishes</a></button>
+   <button class="btn"> <a href="#Dal">Dal</a></button>
+   <button class="btn"> <a href="#Rice">Rice</a></button>
+   <button class="btn"> <a href="#Rotis">Rotis</a></button>
+   <button class="btn"> <a href="#Sweets">Sweets</a></button>
+   </div>
+   <h3 id="Starters">Starters</h3>
+  <div class="menu-container">
+
+   <div class="menu-card">
+    <img src="./../images/papad.jpg" alt="Papad" class="menu-icon">
+     <h2 class="menu-title">Masala Papad </h2>
+     <p>Price : ₹ 50/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+
+   <div class="menu-card">
+    <img src="./../images/manchu.jpg" alt="Gobi manchurian" class="menu-icon">
+     <h2 class="menu-title">Gobi manchurian </h2>
+     <p>Price : ₹ 130/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+
+   <div class="menu-card">
+    <img src="./../images/nool.jpg" alt=" Noodles" class="menu-icon">
+     <h2 class="menu-title"> Noodles </h2>
+     <p>Price : ₹ 120/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+
+   <div class="menu-card">
+    <img src="./../images/roll.jpeg" alt="Veg.Roll" class="menu-icon">
+     <h2 class="menu-title">Veg.Roll </h2>
+     <p>Price : ₹ 40/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+
+</div>
+
+
+<h3 id="Dishes">Dishes</h3>
+<div class="menu-container">
+
+ <div class="menu-card">
+  <img src="./../images/bangan.jpg" alt=" Baingan masala" class="menu-icon">
+   <h2 class="menu-title"> Baingan masala </h2>
+   <p>Price : ₹ 100/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+
+ <div class="menu-card">
+  <img src="./../images/paneer.jpg" alt="paneer Masala" class="menu-icon">
+   <h2 class="menu-title">Paneer Masala </h2>
+   <p>Price : ₹ 150/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+
+ <div class="menu-card">
+  <img src="./../images/Malai-Kofta.jpg" alt="Malai-Kofta" class="menu-icon">
+   <h2 class="menu-title"> Malai-Kofta</h2>
+   <p>Price : ₹ 120/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+
+ <div class="menu-card">
+  <img src="./../images/aloo.jpeg" alt=" Aloo palak" class="menu-icon">
+   <h2 class="menu-title"> Aloo palak </h2>
+   <p>Price : ₹ 100/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+</div>
+
+<h3 id="Dal">Dal</h3>
+<div class="menu-container">
+ <div class="menu-card">
+  <img src="./../images/dal.jpg" alt=" Dal Tadaka" class="menu-icon">
+   <h2 class="menu-title"> Dal Tadaka </h2>
+   <p>Price : ₹ 90/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+ <div class="menu-card">
+  <img src="./../images/dalpalak.jpeg" alt="Dal Palak" class="menu-icon">
+   <h2 class="menu-title">Dal Palak </h2>
+   <p>Price : ₹ 150/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+ </div>
+
+ <h3 id="Rice">Rice</h3>
+<div class="menu-container">
+ <div class="menu-card">
+  <img src="./../images/jirarice.jpg" alt=" Jeera rice" class="menu-icon">
+   <h2 class="menu-title">Jeera rice </h2>
+   <p>Price : ₹ 80/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+ <div class="menu-card">
+  <img src="./../images/pulao.jpeg" alt="Vegetable pulao" class="menu-icon">
+   <h2 class="menu-title">Vegetable pulao </h2>
+   <p>Price : ₹ 130/-</p>
+   <button class="orderbtn"> Order</button>
+ </div>
+ </div>
+
+ <h3 id="Rotis">Rotis</h3>
+ <div class="menu-container">
+  <div class="menu-card">
+   <img src="./../images/nan.jpg" alt=" Tandoori roti" class="menu-icon">
+    <h2 class="menu-title">Tandoori roti</h2>
+    <p>Price : ₹ 20/-</p>
+    <button class="orderbtn"> Order</button>
+  </div>
+  <div class="menu-card">
+   <img src="./../images/paratha.jpg" alt="Aloo paratha" class="menu-icon">
+    <h2 class="menu-title">Aloo paratha </h2>
+    <p>Price : ₹ 45/-</p>
+    <button class="orderbtn"> Order</button>
+  </div>
+  </div>
+
+  <h3 id="Sweets">Sweets</h3>
+  <div class="menu-container">
+   <div class="menu-card">
+    <img src="./../images/khir.jpg" alt="Kheer" class="menu-icon">
+     <h2 class="menu-title">Kheer</h2>
+     <p>Price : ₹ 130/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+   <div class="menu-card">
+    <img src="./../images/rasmalai.jpg" alt="Rasmalai(250 gm)" class="menu-icon">
+     <h2 class="menu-title">Rasmalai(250 gm) </h2>
+     <p>Price : ₹ 145/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+   </div>
+<br><br>
+   <a href="#Starters"><img src="./../images/arrow.png"  class="arrow"></a>
+
+</body>
+</html>
